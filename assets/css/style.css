@@ -1,0 +1,75 @@
+html {
+    /* Sticky Footer */
+    min-height: 100vh;
+    position: relative;
+}
+
+body {
+    background-repeat: repeat;
+    background: url('../images/background.png');
+    color: #777;
+    /* font-family: Arial, 'Helvetica Nueue', Helvetica, sans-serif; */
+    /* For .sticky-footer */
+    margin-bottom: 5rem;
+}
+
+/* #region .site-header */
+.site-header {
+  border-bottom: 1px solid #ccc;
+}
+/* #endregion .site-header */
+
+/* #region .site-footer */
+.sticky-footer {
+    bottom: 0;
+    position: absolute;
+    width: 100vw;
+    /* height: 5rem; */
+    /* line-height: 5rem; */
+}
+
+.site-footer {
+  background-color: #666;
+  border-top: 0.5rem solid #4aaaa5;
+}
+
+.site-footer__credit {
+  color: #ccc;
+}
+/* #endregion .site-footer */
+
+/* #region .site-main */
+.site-main {
+    border: 1px solid #ccc;
+}
+/* #endregion .site-main */
+
+/* #region .article */
+.article__header {
+  border-bottom-color: #ddd;
+}
+
+.article__title {
+  color: #4aaaa5;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.article__content {
+    line-height: 2;
+}
+/* #endregion .article */
+
+/* #region .btn */
+.btn-primary {
+    background-color: #4aaaa5;
+    border-color: #4aaaa5;
+    border-radius: 0;
+}
+/* #endregion .btn */
+
+/* #region .form */
+.form__input::placeholder {
+  color: #bfbfbf;
+  /* font-size: 0.8rem; */
+}
+/* #endregion .form */
