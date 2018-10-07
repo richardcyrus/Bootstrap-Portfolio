@@ -24,8 +24,6 @@ body {
     bottom: 0;
     position: absolute;
     width: 100vw;
-    /* height: 5rem; */
-    /* line-height: 5rem; */
 }
 
 .site-footer {
@@ -37,6 +35,14 @@ body {
   color: #ccc;
 }
 /* #endregion .site-footer */
+
+/* #region .site-content */
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+/* #endregion .site-content */
 
 /* #region .site-main */
 .site-main {
@@ -70,6 +76,27 @@ body {
 /* #region .form */
 .form__input::placeholder {
   color: #bfbfbf;
-  /* font-size: 0.8rem; */
 }
 /* #endregion .form */
+
+/* #region .portfolio */
+.portfolio__link:focus {
+  outline: none;
+}
+
+.portfolio__link:hover {
+  text-decoration: none;
+}
+
+.portfolio__item {
+  margin: 0;
+  margin-bottom: -3rem;
+}
+
+.portfolio__title {
+  background-color: rgba(74, 170, 165, 0.8);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  top: -3rem;
+}
+
+/* #endregion .portfolio */
